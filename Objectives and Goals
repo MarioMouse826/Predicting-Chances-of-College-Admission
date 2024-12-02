@@ -1,0 +1,35 @@
+Predicting Chances of Admission
+Context
+The world is developing rapidly and continuously looking for the best knowledge and experience among people. This motivates people all around the world to stand out in their jobs and look for higher degrees that can help them in improving their skills and knowledge. As a result, the number of students applying for Master's programs has increased substantially.
+
+The current admission dataset was created for the prediction of admissions into the University of California, Los Angeles (UCLA). It was built to help students in shortlisting universities based on their profiles. The predicted output gives them a fair idea about their chances of getting accepted.
+
+Objective
+We need to build a classification model using neural networks to predict a student's chances of admission into UCLA.
+
+Data Dictionary
+The dataset contains several features which are considered important during the application for Masters Programs. The features included are:
+
+GRE Scores: (out of 340)
+
+TOEFL Scores: (out of 120)
+
+University Rating: It indicates the Bachelor University ranking (out of 5)
+
+Statement of Purpose Strength: (out of 5)
+
+Letter of Recommendation Strength: (out of 5)
+
+Undergraduate GPA: (out of 10)
+
+Research Experience: (either 0 or 1)
+
+Chance of Admit: (ranging from 0 to 1)
+
+Steps: 
+1. Exploratory Data Analysis
+2. Preparing the data to train a model (Data Preprocessing)
+3. Training the data using the Neural Network model
+4. Model evaluation
+
+Conclusions to follow after Model Evaluation
